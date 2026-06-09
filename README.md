@@ -1,10 +1,6 @@
 # Handcraft Shop
 A full-stack web application for a handcraft shop, built with **Python Flask** and **MySQL**. Browse, manage, and showcase traditional handmade artisan products with a clean and responsive interface.
 
-## Preview
-> A web platform where customers can explore handcrafted products, send contact messages, and administrators can manage the entire product and user catalog through a CRUD panel.
-
-
 ## Features
 
 - **Product Catalog** — Browse all artisan products with images, descriptions, categories and prices
@@ -129,22 +125,6 @@ INSERT INTO usuarios (nombre, usuario, password, tipo, estado)
 VALUES ('Admin', 'admin', 'admin123', 1, 1);
 ```
 Then go to `/login` and use those credentials.
-
-## Routes Overview
-
-| Route | Method | Description |
-|-------|--------|-------------|
-| `/` | GET | Home page |
-| `/productos` | GET | Product catalog |
-| `/contactenos` | GET, POST | Contact form |
-| `/login` | GET, POST | Login |
-| `/crud` | GET | Product management |
-| `/agregar` | POST | Add new product |
-| `/editar/<id>` | GET | Edit product form |
-| `/actualizar/<id>` | POST | Update product |
-| `/eliminar/<id>` | GET | Delete product |
-| `/crud_usuarios` | GET | User management (Admin only) |
-| `/agregar_usuario` | POST | Add new user |
 
 
 ## Author
